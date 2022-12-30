@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.list-item {
+  height: 200px;
+  width: 70%;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+}
+.list-image {
+  height: 100%;
+  width: 300px;
+}
+.text-container {
+  margin: 0px 0px 0px 25px;
+}
+.blog-title {
+  margin: 0;
+  color: lightgrey;
+  font-weight: 500;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.nav-link-item {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.blog-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 30px;
+}
+.avatar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.blog-image {
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.content {
+  font-weight: 500;
+  color: grey;
+}
